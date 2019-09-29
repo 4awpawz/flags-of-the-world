@@ -1,0 +1,16 @@
+$text-color: rgba(black, 0.6);
+$text-color-lighter: rgba(black, 0.5);
+$text-color-darker: black;
+$light-border-color: rgba(black, 0.15);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1;
+    margin: 0 1rem;
+}
+

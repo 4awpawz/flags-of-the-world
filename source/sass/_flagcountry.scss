@@ -1,0 +1,58 @@
+.flag-country {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    &__page-title {
+        margin: 2.5rem auto 0 auto;
+        color: $text-color;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+        text-align: center;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: $light-border-color;
+        }
+    }
+
+    &__name {
+        margin: 5rem auto 0 auto;
+        color: $text-color;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    &__flag-container {
+        display: block;
+    }
+
+    &__alpha2-code,
+    &__alpha3-code {
+        color: $text-color-darker;
+        font-size: 1.2rem;
+        margin: .5rem 0;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+    &__label {
+        color: $text-color-darker;
+    }
+
+    &__catalog-link {
+        margin-top: 2rem;
+        padding: .5rem 1rem;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        color: $text-color-lighter;
+        letter-spacing: 3px;
+        background-color: rgba(black, 0.05);
+        border-radius: 4px;
+    }
+}
