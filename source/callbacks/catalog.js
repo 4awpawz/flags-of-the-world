@@ -8,7 +8,7 @@ module.exports = ({ $tag, site }) => {
         $tag.append(/* html */`
             <li class="catalog__list-item">
                 <img src="media/flags/${size}/${item.img}" alt="${item.name} flag">
-                <a class="catalog__list-item-link" href="flags of the world/country/${item.name.toLowerCase()}/">
+                <a class="catalog__list-item-link" href="/country/${item.name.toLowerCase()}/">
                     <p class="catalog__list-item-name">${item.name}</p>
                 </a>
             </li>
