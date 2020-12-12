@@ -1,0 +1,23 @@
+{
+  "name": "@jeffreyschwartz/flagsoftheworld",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to use Trio's collections feature to generate a collection of detail pages driven by the items in the source/data/worlds.json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4awpawz/flags-of-the-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4awpawz/flags-of-the-world/issues"
+  },
+  "homepage": "https://github.com/4awpawz/flags-of-the-world#readme",
+  "devDependencies": {
+    "@4awpawz/eslint-config-4awpawzconfig": "^1.0.6"
+  }
+}
